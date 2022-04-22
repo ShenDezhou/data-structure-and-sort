@@ -38,3 +38,9 @@ half_insert_sort.py
 
 ## Heap Sort(堆排序)
 queue_priority_or_heap_sort.py
+
+## Bubble Sort(冒泡排序)
+bubble_sort.py
+
+## Quick Sort(快速排序)
+quick_sort.py
