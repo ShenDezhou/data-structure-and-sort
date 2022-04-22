@@ -44,3 +44,6 @@ bubble_sort.py
 
 ## Quick Sort(快速排序)
 quick_sort.py
+
+## Simple Select Sort(简单选择排序)
+simple_select_sort.py
