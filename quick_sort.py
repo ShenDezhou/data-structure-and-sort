@@ -21,7 +21,7 @@ def quick_sort(a, l, r):
         pivot = i
         print("pivot:", pivot)
         print(l, r, ":", a)
-    if pivot - 1 >= l:
+    if pivot - 1 > l:
         quick_sort(a, l, pivot - 1)
     if r > pivot + 1:
         quick_sort(a, pivot + 1, r)
