@@ -1,14 +1,4 @@
-from data_structure.heap_link import HeapLink
-
-class PriorityQueue:
-    def __init__(self):
-        self.data = HeapLink()
-
-    def push(self, node):
-        self.data.push(node)
-
-    def pop(self):
-        return self.data.pop()
+from data_structure.queue_priority import PriorityQueue
 
 if __name__ == "__main__":
     pq = PriorityQueue()
