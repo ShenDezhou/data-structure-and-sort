@@ -29,6 +29,7 @@ heap.py
 heap_link_little.py
 
 # Sort(排序算法)
+sort
 
 ## Insert Sort(插入排序)
 insert_sort.py
@@ -47,3 +48,10 @@ quick_sort.py
 
 ## Simple Select Sort(简单选择排序)
 simple_select_sort.py
+
+# Sort_custom(自定义排序算法)
+
+最大数算法：求一个数组所有元素能拼接的最大数。字符串排序。
+
+## Heap Sort(自定义堆排序)
+queue_priority_or_heap_sort_custom.py
