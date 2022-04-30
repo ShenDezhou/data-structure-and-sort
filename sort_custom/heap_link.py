@@ -16,11 +16,19 @@ class HeapLink:
         i = len(self.data) - 1
         while i > 0:
             p = self.parent(i)
-            if str(self.data[p].data) < str(self.data[i].data):
+            if self.compare(str(self.data[p].data), str(self.data[i].data)) < 0:
                 self.data[p], self.data[i] = self.data[i], self.data[p]
             else:
                 break
             i = p
+
+    def compare(self, p, q):
+        if p == q:
+            return 0
+        elif int(p + q) > int(q + p):
+            return 1
+        else:
+            return -1
 
     def pop(self):
         root = self.data[0]
@@ -36,19 +44,21 @@ class HeapLink:
             r = self.right_child(current)
             if r >= len(self.data):
                 r = l
-            if str(self.data[l].data) > str(self.data[r].data):
+            if self.compare(str(self.data[l].data), str(self.data[r].data)) > 0:
                 target = l
             else:
                 target = r
-            if str(self.data[target].data) > str(self.data[current].data):
+            if self.compare(str(self.data[target].data), str(self.data[current].data)) > 0:
                 self.data[target], self.data[current] = self.data[current], self.data[target]
             else:
                 break
             current = target
         return root
 
+
 if __name__ == "__main__":
     from link import Node
+
     h = HeapLink()
     [h.push(Node(i)) for i in range(11)]
     a = h.pop()
