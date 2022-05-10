@@ -28,6 +28,9 @@ heap.py
 ### Minimum Heap
 heap_link_little.py
 
+## Huffman Tree
+huffman_tree.py
+
 # Sort(排序算法)
 sort
 

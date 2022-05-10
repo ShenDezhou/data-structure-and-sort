@@ -23,6 +23,8 @@ class HeapLink:
             i = p
 
     def pop(self):
+        if len(self.data) == 0:
+            return None
         root = self.data[0]
         last = self.data[-1]
         self.data.remove(last)
