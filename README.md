@@ -58,6 +58,9 @@ merge_sort.py
 ## Bucket Sort(桶排序)
 bucket_sort.py
 
+## Radix Sort(基数排序)
+radix_sort.py
+
 # Sort_custom(自定义排序算法)
 
 最大数算法：求一个数组所有元素能拼接的最大数。字符串排序。
