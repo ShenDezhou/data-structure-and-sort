@@ -16,7 +16,7 @@ def insert_sort(a):
         print("sorted a:", b)
     return b
 
-
-b = insert_sort(a)
-print("result", b)
+if __name__ == "__main__":
+    b = insert_sort(a)
+    print("result", b)
 
