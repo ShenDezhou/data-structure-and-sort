@@ -80,3 +80,6 @@ fibonacci_search.py
 
 ## Rabin-Karp Search(Rabin-Karp匹配)
 rabin_karp_search.py
+
+## Knuth-Morris-Pratt(KMP匹配)
+knuth_morris_pratt_search.py
