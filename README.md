@@ -75,3 +75,8 @@ binary_search.py
 
 ## Fibonacci Search(斐波那契搜索)
 fibonacci_search.py
+
+# String Match(字符串匹配)
+
+## Rabin-Karp Search(Rabin-Karp匹配)
+rabin_karp_search.py
