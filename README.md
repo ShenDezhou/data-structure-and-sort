@@ -67,3 +67,11 @@ radix_sort.py
 
 ## Heap Sort(自定义堆排序)
 queue_priority_or_heap_sort_custom.py
+
+# Search(搜索)
+
+## Binary Search(二叉搜索)
+binary_search.py
+
+## Fibonacci Search(斐波那契搜索)
+fibonacci_search.py
