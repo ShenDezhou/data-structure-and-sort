@@ -83,3 +83,6 @@ rabin_karp_search.py
 
 ## Knuth-Morris-Pratt(KMP匹配)
 knuth_morris_pratt_search.py
+
+## Finite State Machine Match(有限状态机匹配)
+finite_state_machine_search.py
